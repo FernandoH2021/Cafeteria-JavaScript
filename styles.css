@@ -4,6 +4,13 @@
     margin: 0;
 
 }
+.left{
+    float: left;
+
+}
+.right{
+    float: right;
+}
 /* header */
 
 header {
@@ -67,8 +74,38 @@ header li {
     color: white;
     text-align: center;
     padding: 285px 0;
-    margin: auto;
+    margin: auto; 
+
+}
+/* acerca de nosotros */
+.about{
+    height: 1000px;
+    font-size: 18px;
+}
+.about-container{
+width: 50%;
+height: 50%;
+}
+
+.about-content{
+    text-align: justify;
+    padding: 130px 30px;
+}
+
+.about-title{
+    margin: 2rem;
+    text-align: center;
+}
+
+#about-img1{
+    background: url(./resources/images/cafe\ 1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#about-img2{
+    background: url(./resources/images/cafe\ 2.jpg);
+    background-position: center center;
+    background-size: cover;
     
-
-
 }

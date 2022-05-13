@@ -109,3 +109,32 @@ height: 50%;
     background-size: cover;
     
 }
+/* menu */
+.menu {
+    clear: both; /* impide que flote a lo largo de cualquier elemento */
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background: url(./resources/images/cafe\ 3.jpg);
+    background-size: cover;  
+
+}
+.menu-inner{
+    padding: 3rem;
+    color: white;
+}
+.menu-title{
+    margin: 2rem;
+
+}
+.menu ul{
+    padding: 0;
+}
+.menu ul li{
+list-style: none; /* sacamos las viñetas */
+padding: 2rem;
+}
+.menu ul li div{
+    display: inline;
+    padding: 4rem;
+}

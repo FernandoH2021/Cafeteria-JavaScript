@@ -1,5 +1,5 @@
 *{
-    box-sizing: border-box;
+    box-sizing: border-box; /* hacen que el padding y el border pasen a formar parte del calculo del ancho de la caja */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
 
@@ -137,4 +137,57 @@ padding: 2rem;
 .menu ul li div{
     display: inline;
     padding: 4rem;
+}
+/* reservation */
+
+.reservation {
+    height: 550px;
+    text-align: center;
+}
+.form-central {
+    display: block;
+}
+.form-left {
+    text-align: center;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+.form-right {
+    width: 50%;
+    height: 300px;
+    float: right;
+}
+.reservation label {
+    display: block;
+    padding: 1.2rem;
+}
+input [type = "text"],
+input [type = "time"],
+input [type = "date"],
+input [type = "email"],
+input [type = "number"]
+{
+width: 12rem;
+}
+
+textarea {
+    padding: 2rem;
+}
+
+input [type = "submit"] {
+    font-size: 16px;
+    margin: 1rem;
+    height: 2rem;
+    width: 8rem;
+    display: block;
+    margin: auto; /* me centra el boton de reservar */
+}
+/* footer */
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 2rempx;
+    padding: 1rem;
 }

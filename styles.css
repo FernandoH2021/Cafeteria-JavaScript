@@ -183,6 +183,9 @@ input [type = "submit"] {
     display: block;
     margin: auto; /* me centra el boton de reservar */
 }
+.reservation{
+    background-color: rgb(5, 44, 44);
+}
 /* footer */
 footer {
     color: white;

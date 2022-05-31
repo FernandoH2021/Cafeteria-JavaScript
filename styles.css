@@ -54,7 +54,7 @@ header li {
 }
 .presentation-video{
     height: 720px;
-    position: absolute;
+    position:fixed;/*está posicionado en relación con la ventana gráfica, lo que significa que siempre permanece en el mismo lugar incluso si se desplaza la página sin dejar huecos*/
     top:0%;
     left: 0%;
     width: 100%;   
@@ -144,10 +144,12 @@ padding: 2rem;
     box-sizing: border-box;
   }
   body {
+    background-color: rgb(128, 110, 110);
     margin: 0;
     font-family: sans-serif;
   }
   .formulario {
+    
     width: 500px;
     max-width: 100%;
     margin: auto;
@@ -204,4 +206,5 @@ footer {
     height: 2rempx;
     padding: 1rem;
 }
+
 

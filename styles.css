@@ -54,7 +54,7 @@ header li {
 }
 .presentation-video{
     height: 720px;
-    position:fixed;/*está posicionado en relación con la ventana gráfica, lo que significa que siempre permanece en el mismo lugar incluso si se desplaza la página sin dejar huecos*/
+    position: fixed;/*está posicionado en relación con la ventana gráfica, lo que significa que siempre permanece en el mismo lugar incluso si se desplaza la página sin dejar huecos*/
     top:0%;
     left: 0%;
     width: 100%;   
@@ -81,6 +81,7 @@ header li {
 .about{
     height: 1000px;
     font-size: 18px;
+    color: white; /*color del parrafo "acerca de nosotros"*/
 }
 .about-container{
 width: 50%;
@@ -116,7 +117,8 @@ height: 50%;
     color: white;
     text-align: center;
     background: url(./resources/images/cafe\ 3.jpg);
-    background-size: cover;  
+    background-size: cover; 
+     
 
 }
 .menu-inner{
@@ -124,7 +126,7 @@ height: 50%;
     color: white;
 }
 .menu-title{
-    margin: 2rem;
+    margin: 1rem;
 
 }
 .menu ul{
@@ -144,34 +146,35 @@ padding: 2rem;
     box-sizing: border-box;
   }
   body {
-    background-color: rgb(128, 110, 110);
+    background-color: rgb(24, 17, 17);
     margin: 0;
     font-family: sans-serif;
-  }
-  .formulario {
     
+  }
+  .formulario {    
     width: 500px;
     max-width: 100%;
     margin: auto;
     margin-top: 30px;
     padding: 20px;
-    box-shadow: 0 0 20px 1px rgba(0,0,0,0.3);
-    position: relative;
+    box-shadow: 0 0 20px 1px rgba(247, 244, 244, 0.3);
+    position: sticky;
   }
   .formulario__titulo {
     text-align: center;
     margin-top: 0;
-    color: rgba(0,0,0,0.7);
+    color: white;
   }
   .formulario__input, .formulario__label, .formulario__submit {
     display: block;
     width: 100%;
     font-size: 1.3em;
+    
   }
   .formulario__input {
     padding: 20px;
     background: rgba(0,0,0,0.1);
-    border: 1px solid rgba(0,0,0,0.3);
+    border: 1px solid rgba(218, 207, 207, 0.3);
     margin-bottom: 40px;
   }
   .formulario__input:focus {
@@ -180,12 +183,12 @@ padding: 2rem;
   .formulario__input:focus + .formulario__label{
     margin-top: -135px;
   }
-  .formulario__label {
+  .formulario__label {    
     padding-left: 15px;
     position: absolute;
     margin-top: -85px;
     z-index: -20;
-    color: rgba(0,0,0,0.5);
+    color: white;
     transition: all 0.2s;
   }
   .formulario__submit {

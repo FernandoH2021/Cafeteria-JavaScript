@@ -85,7 +85,7 @@ header li {
 }
 .about-container{
 width: 50%;
-height: 50%;
+height: 70%;
 }
 
 .about-content{
@@ -117,7 +117,7 @@ height: 50%;
     color: white;
     text-align: center;
     background: url(./resources/images/cafe\ 3.jpg);
-    background-size: cover; 
+    background-size:cover;
      
 
 }
@@ -134,11 +134,11 @@ height: 50%;
 }
 .menu ul li{
 list-style: none; /* sacamos las viñetas */
-padding: 2rem;
+padding: 4rem;
 }
 .menu ul li div{
-    display: inline;
-    padding: 4rem;
+    display: inline;/*El elemento genera uno o más cuadros de elemento en línea.*/
+    padding: 8rem;
 }
 /* reservation */
 

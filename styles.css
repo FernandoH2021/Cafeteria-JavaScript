@@ -127,6 +127,8 @@ height: 70%;
 }
 .menu-title{
     margin: -2rem;
+    justify-content: center;
+    align-items: center;
 
 }
 .menu ul{
@@ -138,7 +140,7 @@ padding: 3rem;
 }
 .menu ul li div{
     display: inline;/*El elemento genera uno o más cuadros de elemento en línea.*/
-    padding: 15rem;
+    padding: 10rem;
 }
 /* reservation */
 
